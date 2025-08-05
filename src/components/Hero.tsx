@@ -1,15 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { Apple, ArrowRight } from "lucide-react";
 import heroImage from "@/assets/hero-landscape.jpg";
-
 const Hero = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroImage})` }}
-      >
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
+      backgroundImage: `url(${heroImage})`
+    }}>
         <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/70 to-background/40"></div>
       </div>
       
@@ -45,20 +42,18 @@ const Hero = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           <div className="p-6 rounded-2xl bg-card/80 backdrop-blur-sm shadow-elegant">
             <div className="text-3xl font-bold text-primary mb-2">24/7</div>
-            <div className="text-muted-foreground">AI Lead Response</div>
+            <div className="text-muted-foreground">Customer Service</div>
           </div>
           <div className="p-6 rounded-2xl bg-card/80 backdrop-blur-sm shadow-elegant">
             <div className="text-3xl font-bold text-primary mb-2">85%</div>
             <div className="text-muted-foreground">More Leads Converted</div>
           </div>
           <div className="p-6 rounded-2xl bg-card/80 backdrop-blur-sm shadow-elegant">
-            <div className="text-3xl font-bold text-primary mb-2">15hrs</div>
+            <div className="text-3xl font-bold text-primary mb-2">40hrs</div>
             <div className="text-muted-foreground">Saved Per Week</div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
