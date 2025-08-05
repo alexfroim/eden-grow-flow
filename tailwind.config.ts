@@ -26,7 +26,13 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
+				},
+				nature: {
+					green: 'hsl(var(--nature-green))',
+					sage: 'hsl(var(--sage-green))',
+					forest: 'hsl(var(--forest-deep))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
