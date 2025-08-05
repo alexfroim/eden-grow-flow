@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Sparkles } from "lucide-react";
+import { Apple } from "lucide-react";
 
 const Navigation = () => {
   return (
@@ -7,10 +7,13 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <Sparkles className="w-8 h-8 text-primary" />
+          <button 
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+          >
+            <Apple className="w-8 h-8 text-primary" />
             <span className="text-2xl font-bold text-foreground">Eden</span>
-          </div>
+          </button>
           
           {/* Navigation Links */}
           <div className="hidden md:flex items-center gap-8">

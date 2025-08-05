@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Sparkles, ArrowRight } from "lucide-react";
+import { Apple, ArrowRight } from "lucide-react";
 import heroImage from "@/assets/hero-landscape.jpg";
 
 const Hero = () => {
@@ -16,7 +16,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center max-w-4xl">
         <div className="flex items-center justify-center gap-2 mb-6">
-          <Sparkles className="w-8 h-8 text-primary" />
+          <Apple className="w-8 h-8 text-primary" />
           <span className="text-primary font-semibold text-lg">Eden AI</span>
         </div>
         
