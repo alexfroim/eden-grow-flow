@@ -42,7 +42,7 @@ const CallToAction = () => {
                 </p>
                 <Button 
                   className="w-full bg-gradient-to-r from-primary to-primary-glow hover:shadow-nature"
-                  onClick={() => window.open('https://calendly.com/your-booking-link', '_blank')}
+                  onClick={() => window.open('https://calendly.com/eden-edenmow/30min', '_blank')}
                 >
                   Book Your Demo
                   <ArrowRight className="ml-2 w-5 h-5" />
