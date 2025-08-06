@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Users, Building, Briefcase } from "lucide-react";
-import businessOwnerImage from "@/assets/business-owner.jpg";
+import businessOwnerImage from "@/assets/trade-business-owner.jpg";
 
 const profiles = [
   {
     icon: Users,
-    title: "Small Landscaping Teams",
+    title: "Small Trade Teams",
     description: "2-10 person crews who excel at their craft but struggle with lead management, scheduling, and customer communication.",
     pain: "Missing calls, losing leads, spending evenings on paperwork"
   },
   {
     icon: Building,
-    title: "Growing Landscape Companies",
+    title: "Growing Trade Companies",
     description: "Established businesses ready to scale but held back by manual processes and administrative overhead.",
     pain: "Can't grow without hiring more office staff"
   },
   {
     icon: Briefcase,
-    title: "Solo Landscape Professionals",
+    title: "Solo Trade Professionals",
     description: "Independent contractors who want to compete with larger companies but need professional systems and automation.",
     pain: "Wearing too many hats, working nights on admin"
   }
@@ -32,12 +32,12 @@ const WhoItsFor = () => {
           <div>
             <h2 className="text-4xl md:text-5xl font-bold mb-8">
               Built For
-              <span className="block text-primary">Landscape Professionals</span>
+              <span className="block text-primary">Trade Professionals</span>
             </h2>
             
             <p className="text-xl text-muted-foreground mb-12 leading-relaxed">
               Whether you're a solo professional or managing a growing team, 
-              Eden is designed for landscapers who are excellent at their craft 
+              Eden is designed for skilled trades who are excellent at their craft 
               but need help with the business side.
             </p>
             
@@ -70,13 +70,13 @@ const WhoItsFor = () => {
             <div className="rounded-2xl overflow-hidden shadow-nature">
               <img 
                 src={businessOwnerImage} 
-                alt="Professional landscaper using Eden AI" 
+                alt="Professional tradesperson using Eden AI" 
                 className="w-full h-[600px] object-cover"
               />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-primary text-primary-foreground p-6 rounded-2xl shadow-elegant">
               <div className="text-2xl font-bold mb-1">500+</div>
-              <div className="text-sm opacity-90">Happy Landscapers</div>
+              <div className="text-sm opacity-90">Happy Trade Professionals</div>
             </div>
           </div>
         </div>

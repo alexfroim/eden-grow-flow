@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight, Calendar, Apple } from "lucide-react";
-import naturePattern from "@/assets/nature-pattern.jpg";
+import tradeToolsPattern from "@/assets/trade-tools-pattern.jpg";
 
 const CallToAction = () => {
   return (
@@ -9,7 +9,7 @@ const CallToAction = () => {
       {/* Background */}
       <div 
         className="absolute inset-0 bg-cover bg-center opacity-5"
-        style={{ backgroundImage: `url(${naturePattern})` }}
+        style={{ backgroundImage: `url(${tradeToolsPattern})` }}
       ></div>
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-background to-accent/5"></div>
       
@@ -21,14 +21,14 @@ const CallToAction = () => {
           </div>
           
           <h2 className="text-4xl md:text-6xl font-bold mb-8 leading-tight">
-            Your Landscaping Business
+            Your Trade Business
             <span className="block bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
               Deserves Eden
             </span>
           </h2>
           
           <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
-            Join hundreds of landscapers who've transformed their business with AI automation. 
+            Join hundreds of trade professionals who've transformed their business with AI automation. 
             Book a personalized demo and see how Eden can help you grow.
           </p>
           

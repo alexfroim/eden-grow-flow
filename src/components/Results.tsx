@@ -4,21 +4,21 @@ import { Quote, Star } from "lucide-react";
 const testimonials = [
   {
     name: "Mike Rodriguez",
-    company: "Green Valley Landscapes",
+    company: "Rodriguez Plumbing",
     testimonial: "Eden's AI has been a game-changer. We went from missing 40% of leads to responding to every single one within minutes. Our booking rate doubled in the first month.",
     results: "200% increase in lead conversion",
     rating: 5
   },
   {
     name: "Sarah Chen",
-    company: "Precision Lawn Care",
+    company: "Elite HVAC Solutions",
     testimonial: "I used to spend 3 hours every evening on scheduling and follow-ups. Now Eden handles it all automatically. I actually have time for my family again.",
     results: "15 hours saved per week",
     rating: 5
   },
   {
     name: "David Thompson",
-    company: "Elite Garden Design",
+    company: "Thompson Electric",
     testimonial: "The social media automation is incredible. Our Instagram grew from 200 to 2,000 followers in 6 months, and we're booking higher-value projects.",
     results: "10x social media growth",
     rating: 5
@@ -38,10 +38,10 @@ const Results = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Real Results from Real Landscapers
+            Real Results from Real Trade Professionals
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            See how Eden's AI automation is transforming landscaping businesses 
+            See how Eden's AI automation is transforming trade businesses 
             across the country—and imagine what it could do for yours.
           </p>
         </div>

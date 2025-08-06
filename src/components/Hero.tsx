@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Apple, ArrowRight } from "lucide-react";
-import heroImage from "@/assets/hero-landscape.jpg";
+import heroImage from "@/assets/trade-professionals.jpg";
 const Hero = () => {
   return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
@@ -18,7 +18,7 @@ const Hero = () => {
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-          Let Your Landscaping
+          Let Your Trade
           <span className="block bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
             Business Grow
           </span>
@@ -26,7 +26,7 @@ const Hero = () => {
         
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
           We'll handle the admin, follow-ups, and marketing—so you can focus on what you love: 
-          creating beautiful outdoor spaces.
+          delivering exceptional service to your customers.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
