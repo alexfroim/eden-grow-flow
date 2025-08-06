@@ -34,7 +34,11 @@ const Hero = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-          <Button size="lg" className="bg-gradient-to-r from-primary to-primary-glow hover:shadow-nature transition-all duration-300 text-lg px-8 py-6">
+          <Button 
+            size="lg" 
+            className="bg-gradient-to-r from-primary to-primary-glow hover:shadow-nature transition-all duration-300 text-lg px-8 py-6"
+            onClick={() => window.open('https://calendly.com/your-booking-link', '_blank')}
+          >
             Book Your Demo
             <ArrowRight className="ml-2 w-5 h-5" />
           </Button>

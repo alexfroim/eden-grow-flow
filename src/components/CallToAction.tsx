@@ -40,7 +40,10 @@ const CallToAction = () => {
                 <p className="text-muted-foreground mb-6">
                   30-minute personalized walkthrough of Eden's AI tools for your business
                 </p>
-                <Button className="w-full bg-gradient-to-r from-primary to-primary-glow hover:shadow-nature">
+                <Button 
+                  className="w-full bg-gradient-to-r from-primary to-primary-glow hover:shadow-nature"
+                  onClick={() => window.open('https://calendly.com/your-booking-link', '_blank')}
+                >
                   Book Your Demo
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
