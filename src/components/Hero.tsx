@@ -25,8 +25,8 @@ const Hero = () => {
         </h1>
         
         <p className="text-xl md:text-2xl text-foreground/90 mb-8 max-w-2xl mx-auto leading-relaxed font-medium">
-          We'll handle the admin, follow-ups, and marketing—so you can focus on what you love: 
-          delivering exceptional service to your customers.
+          Our AI agents handle outreach, business development, and customer calls—so you can focus on what you do best: 
+          delivering exceptional service that keeps clients coming back.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
