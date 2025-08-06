@@ -1,48 +1,48 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { 
-  MessageSquare, 
-  Calendar, 
+  Phone, 
+  PhoneCall, 
   TrendingUp, 
-  Share2,
-  Zap,
-  Clock
+  FileText,
+  Headphones,
+  Megaphone
 } from "lucide-react";
 
 const features = [
   {
-    icon: MessageSquare,
-    title: "AI Lead Capture",
-    description: "Never miss a lead again. Our AI responds instantly to inquiries, qualifies prospects, and schedules appointments—even while you sleep.",
+    icon: PhoneCall,
+    title: "Outbound Calling",
+    description: "Our AI agents proactively reach out to qualified leads, nurture prospects, and schedule appointments to keep your pipeline full.",
     color: "text-primary"
   },
   {
-    icon: Calendar,
-    title: "Smart Scheduling",
-    description: "Automated quoting, appointment booking, and follow-up reminders. Your calendar stays full while you focus on the work.",
+    icon: Phone,
+    title: "Inbound Call Management",
+    description: "Never miss a call again. Our AI handles customer inquiries, appointment scheduling, and service requests 24/7.",
     color: "text-accent"
   },
   {
     icon: TrendingUp,
-    title: "Business Growth",
-    description: "Advanced lead generation tools and conversion optimization that turn your expertise into consistent, profitable growth.",
+    title: "Business Development",
+    description: "Strategic outreach campaigns and lead generation systems that consistently bring in new opportunities and grow your revenue.",
     color: "text-nature-green"
   },
   {
-    icon: Share2,
-    title: "Social Media Automation",
-    description: "Keep your brand active with automated posting, customer showcases, and engagement—without lifting a finger.",
+    icon: FileText,
+    title: "Admin Task Automation",
+    description: "Eliminate paperwork with automated invoicing, scheduling, follow-ups, and client communication that runs seamlessly in the background.",
     color: "text-primary-glow"
   },
   {
-    icon: Zap,
-    title: "Instant Customer Service",
-    description: "AI-powered responses to common questions, service updates, and customer care that delights every interaction.",
+    icon: Headphones,
+    title: "Customer Service Excellence",
+    description: "AI-powered support that handles questions, updates, and service requests with the personal touch your clients expect.",
     color: "text-accent"
   },
   {
-    icon: Clock,
-    title: "Time Freedom",
-    description: "Reclaim hours every week by automating repetitive tasks. Spend time growing your business instead of managing it.",
+    icon: Megaphone,
+    title: "Marketing & Outreach",
+    description: "Automated social media, email campaigns, and client nurturing that keeps your brand visible and your services top-of-mind.",
     color: "text-nature-green"
   }
 ];
@@ -56,8 +56,8 @@ const WhatWeDo = () => {
             What We Do
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Eden's AI agents work around the clock to automate your business operations, 
-            so you can focus on creating beautiful landscapes instead of chasing paperwork.
+            Our AI agents handle your outbound calling, inbound support, and business development—so you can focus 
+            on delivering exceptional service while we grow your business behind the scenes.
           </p>
         </div>
         
