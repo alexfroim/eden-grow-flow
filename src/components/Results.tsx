@@ -28,7 +28,7 @@ const testimonials = [
 const stats = [
   { number: "92%", label: "Lead Response Rate" },
   { number: "$47K", label: "Average Revenue Increase" },
-  { number: "47hrs", label: "Time Saved Weekly" },
+  { number: "18hrs", label: "Time Saved Weekly" },
   { number: "4.9/5", label: "Customer Satisfaction" }
 ];
 
